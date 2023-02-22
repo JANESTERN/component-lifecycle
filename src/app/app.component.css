@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: grey;
+    padding: 30px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    padding: 10px;
+
+}
+.container input{
+    padding: 10px;
+
+}

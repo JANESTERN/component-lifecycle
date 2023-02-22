@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lifecycle';
+  
+  inputext:string=''
+
+  onSubmit(inputel:HTMLInputElement){
+    this.inputext=inputel.value
+
+  }
+
+
 }
